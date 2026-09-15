@@ -36,13 +36,19 @@ export default function Tenis() {
   }
 
   return (
-    <div>
-      {tenis.map((tenis) => (
-        <div key={tenis.id}>
-          <h3>{tenis.title}</h3>
-          <p>{tenis.description}</p>
-          <p>Price: ${tenis.price.toFixed(2)}</p>
-          <img src={tenis.thumbnail} alt={tenis.title} />
+    <div className="container">
+      {tenis.map((item) => (
+        <div key={item.id} className="card-tenis">
+          <div className="imagem-container">
+            <img src={item.thumbnail} alt={item.title} />
+          </div>
+
+          <div className="info-header">
+            <h3>{item.title}</h3>
+            <span className="preco">${item.price.toFixed(2)}</span>
+          </div>
+
+          <p className="categoria">{item.category}</p>
         </div>
       ))}
     </div>
