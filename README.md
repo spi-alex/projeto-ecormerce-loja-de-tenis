@@ -24,9 +24,9 @@ No terminal, rode o comando abaixo para baixar as dependências necessárias:
 ```bash
 npm install
 
-### 2 Rodar o projeto
+2. Iniciar a aplicação
+Para rodar o projeto em modo de desenvolvimento, execute:
 
-No terminal, rode o comando abaixo para baixar as dependências necessárias:
-
-```bash
+Bash
 npm run dev
+```
