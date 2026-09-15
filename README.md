@@ -6,7 +6,7 @@ Este é um projeto simples desenvolvido em **TypeScript** que simula a vitrine d
 
 ## Acesse o Projeto Online
 
-Acesse a aplicação em funcionamento: [Acessar a Loja de Tênis](https://SEU-USUARIO.github.io/loja-tenis/)
+Acesse a aplicação em funcionamento: [Acessar a Loja de Tênis](https://spi-alex.github.io/projeto-ecormerce-loja-de-tenis/)
 
 ---
 
@@ -29,3 +29,4 @@ No terminal, rode o comando abaixo para baixar as dependências necessárias:
 
 ```bash
 npm install
+```
