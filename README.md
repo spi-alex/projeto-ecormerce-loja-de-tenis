@@ -30,3 +30,8 @@ No terminal, rode o comando abaixo para baixar as dependências necessárias:
 ```bash
 npm install
 ```
+
+### Após fazer a instalação das dependências rode o comando
+```bash
+npm run dev
+```
